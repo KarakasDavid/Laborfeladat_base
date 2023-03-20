@@ -1,15 +1,24 @@
-public class TachoTest {
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+import com.google.guava.Table;
 
-	Tachograf graft;
+public class TachoTest {
 	
-	@Before
-	public void before() {
-		Tachograf graft = new Tachograf(1,2,3);
-	}
-	
-	@Test
-	public void valami() {
-		
-	}
+    @Test
+    public void givenTable_whenGet_returnsSuccessfully() {
+        Table<int, int, int> valami = HashBasedTable.create();
+        valami.put(10, 10, 12);
+        valami.put(11, 11, 60);
+        valami.put(12, 12, 60);
+        valami.put(13, 13, 140);
+
+        int szam = valami.get(10, 10);
+        
+
+        assertThat(seatCount).isEqualTo(12);
+        
+    }
 
 }
