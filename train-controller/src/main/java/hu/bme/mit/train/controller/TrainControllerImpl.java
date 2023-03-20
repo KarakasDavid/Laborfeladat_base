@@ -46,4 +46,8 @@ public class TrainControllerImpl implements TrainController {
 		this.step = joystickPosition;		
 	}
 
+	public void vészfékezés(){
+		this.step=0;
+	}
+
 }
