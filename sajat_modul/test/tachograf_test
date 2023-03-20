@@ -1,0 +1,15 @@
+public class TachoTest {
+
+	Tachograf graft;
+	
+	@Before
+	public void before() {
+		Tachograf graft = new Tachograf(1,2,3);
+	}
+	
+	@Test
+	public void valami() {
+		
+	}
+
+}

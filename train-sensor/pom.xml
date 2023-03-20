@@ -12,6 +12,12 @@
     </parent>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>com-google-guava</artifactId>
+            <version>RELEASE113</version>
+        </dependency>
         <dependency>
             <groupId>hu.bme.mit.train</groupId>
             <artifactId>hu.bme.mit.train.interfaces</artifactId>
