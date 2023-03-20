@@ -1,4 +1,5 @@
 **ez vastag**
+<<<<<<< HEAD
 Branch-A
 # Header akarna lenni
 
