@@ -3,9 +3,11 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.mockito.Mockito.*;
 import com.google.guava.Table;
+package sajat_modul;
 
 public class TachoTest {
 	
+
     @Test
     public void givenTable_whenGet_returnsSuccessfully() {
         Table<int, int, int> valami = HashBasedTable.create();
@@ -17,7 +19,7 @@ public class TachoTest {
         int szam = valami.get(10, 10);
         
 
-        assertThat(seatCount).isEqualTo(12);
+        assertThat(szam).isEqualTo(12);
         
     }
 

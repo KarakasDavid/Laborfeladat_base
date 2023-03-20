@@ -1,4 +1,4 @@
-package hu.bme.mit.train.sajat_modul;
+
 import com.google.guava.Table;
 
 public class Tachograf {

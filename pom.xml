@@ -20,7 +20,11 @@
     </modules>
 
 	<dependencies>
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+    		<groupId>org.netbeans.external</groupId>
+    		<artifactId>com-google-guava</artifactId>
+    		<version>RELEASE113</version>
+		</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -39,6 +43,11 @@
 			<version>0.8.7</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>31.0.1-jre</version>
+</dependency>
 	</dependencies>
 
 	<build>
